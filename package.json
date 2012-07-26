@@ -1,0 +1,21 @@
+{
+  "author": "Prashant Singh <prashant@codeforamerica.com> (http://prashtx.com)",
+  "name": "connect-s3",
+  "description": "Connect middleware to serve static content from Amazon S3",
+  "version": "0.0.1",
+  "homepage": "https://github.com/prashtx/connect-s3",
+  "repository": {
+      "type": "git",
+      "url": "git://github.com/prashtx/connect-s3.git"
+  },
+  "main": "./lib/connect-s3.js",
+  "dependencies": {
+    "request": "2.9.x"
+  },
+  "devDependencies": {
+    "connect": ">=2.4.2"
+  },
+  "engines" : {
+    "node": "~0.6.17"
+  }
+}
