@@ -33,6 +33,20 @@ var app = connect()
 .listen(process.env.PORT || 3000);
 ```
 
+## Test
+
+Install dependencies and dev dependencies with `npm install`. The Makefile also
+uses Foreman to run Mocha with environment variables set. To run the tests,
+create a file called `test.env` specifying the ports to use for the test
+servers. For example, you might have the following.
+
+```
+PROXY_PORT=3100
+SERVER_PORT=3101
+```
+
+Then run `make`.
+
 ## Why?
 
 I've run across Connect middleware for serving local static content, which
