@@ -4,16 +4,8 @@ Connect middleware for serving static content from Amazon S3.
 
 ## Installation
 
-For now, you can point your `package.json` file at this repository:
-
-```json
-{
-  "name": "cool-app",
-  "dependencies": {
-    "connect-s3": "git://github.com/prashtx/connect-s3.git"
-  }
-}
-```
+Run `npm install connect-s3 --save` to install the module locally and add an
+entry to your project's `package.json` file.
 
 ## Use
 
