@@ -2,7 +2,7 @@
   "author": "Prashant Singh <prashant@localdata.com> (http://localdata.com)",
   "name": "connect-s3",
   "description": "Connect middleware to serve static content from Amazon S3",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "homepage": "https://github.com/prashtx/connect-s3",
   "repository": {
       "type": "git",
