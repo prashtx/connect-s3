@@ -10,7 +10,7 @@
   },
   "main": "./lib/connect-s3.js",
   "dependencies": {
-    "request": "~2.21.0"
+    "request": "~2.88.0"
   },
   "devDependencies": {
     "connect": "~2.7.11",
